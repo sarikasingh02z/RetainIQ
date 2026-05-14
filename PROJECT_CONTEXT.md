@@ -1,5 +1,5 @@
 # PROJECT_CONTEXT.md
-## RetainAI — Customer Intelligence Dashboard
+## RetainIQ — Customer Intelligence Dashboard
 
 ### What We're Building
 A research-grade, industry-ready customer intelligence system on Telco churn data.
@@ -142,4 +142,3 @@ RetainAI/
 
 ---
 
-*Last updated: All phases complete. Dashboard built and running locally.*

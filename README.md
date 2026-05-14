@@ -40,24 +40,7 @@ At threshold 0.4: Recall 0.87, Precision 0.48, F1 0.61 — best balance for this
 At threshold 0.5: Recall 0.78, Precision 0.52, F1 0.62 — higher precision but misses more real churners.
 Chosen: 0.4 — For churn, missing a churner costs more than a wasted retention call. Recall of 0.87 catches most at-risk customers while keeping precision acceptable.
 
-**Project Structure**
-RetainAI/
-├── notebooks/
-│   └── customer_intelligence.ipynb   # Full analysis pipeline
-├── dashboard/
-│   └── app.py                        # Streamlit dashboard
-├── models/
-│   ├── lr_churn_model.pkl
-│   ├── kmeans_model.pkl
-│   ├── kmeans_scaler.pkl
-│   ├── feature_cols.pkl
-│   └── df_ml_final.csv
-├── plots/                            # All generated visualizations
-├── PROJECT_CONTEXT.md                # Decision log
-├── requirements.txt
-└── README.md
-
-**Dashboard*8
+**Dashboard**
 Overview — KPI cards: total customers, churn rate, high risk count, revenue at risk
 Customer Lookup — Search any Customer ID → see risk tier, churn probability, segment, recommended action
 Segments — Segment profiles, revenue at risk by segment, churn rate comparison

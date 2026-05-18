@@ -1,0 +1,6 @@
+*.pkl
+*.xlsx
+__pycache__/
+.ipynb_checkpoints/
+*.csv
+models/
